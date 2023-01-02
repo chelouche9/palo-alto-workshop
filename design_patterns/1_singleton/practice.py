@@ -1,0 +1,1 @@
+# Create your singleton and db classes below
