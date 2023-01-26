@@ -28,6 +28,7 @@ class ExternalProduct:
 
 # Create the adapter class here
 
+
 my_shirt = MyProduct(10, 'blue', 'Shirt')
 print(my_shirt.get_data())
 

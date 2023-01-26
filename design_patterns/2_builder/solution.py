@@ -10,26 +10,26 @@ class Car:
 
 class CarBuilder:
     def __init__(self):
-        self.computer = Car('', '', '', 0)
+        self.car = Car('', '', '', 0)
 
     def set_color(self, color: str):
-        self.computer.color = color
+        self.car.color = color
         return self
 
     def set_brand(self, brand: str):
-        self.computer.brand = brand
+        self.car.brand = brand
         return self
 
     def set_year(self, year: int):
-        self.computer.year = year
+        self.car.year = year
         return self
 
     def set_model(self, model: str):
-        self.computer.model = model
+        self.car.model = model
         return self
 
     def build(self):
-        return self.computer
+        return self.car
 
 builder = CarBuilder()
 car = builder.set_color("White").set_year(2019).set_brand("Toyota").set_model("Yaris").build()
